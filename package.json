@@ -1,0 +1,27 @@
+{
+  "name": "image-plus",
+  "version": "0.0.1",
+  "description": "Custom component for the IXON Cloud",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/@ixon-cdk/runner build",
+    "deploy": "node node_modules/@ixon-cdk/runner deploy",
+    "generate": "node node_modules/@ixon-cdk/runner generate",
+    "login": "node node_modules/@ixon-cdk/runner login",
+    "logout": "node node_modules/@ixon-cdk/runner logout",
+    "publish": "node node_modules/@ixon-cdk/runner publish",
+    "simulate": "node node_modules/@ixon-cdk/runner simulate"
+  },
+  "author": "Ron Nabuurs",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "@ixon-cdk/core": "^1.0.0-rc.0",
+    "@ixon-cdk/runner": "^1.0.0-rc.0",
+    "@ixon-cdk/simulator": "^1.0.0-rc.0",
+    "@ixon-cdk/templates": "^1.0.0-rc.0"
+  },
+  "dependencies": {
+    "@ixon-cdk/vue-builder": "^1.0.0-rc.0",
+    "mdue": "^0.1.4"
+  }
+}

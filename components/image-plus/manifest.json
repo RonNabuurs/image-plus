@@ -1,0 +1,50 @@
+{
+  "main": "pct-image-plus.min.js",
+  "name": "Image Plus",
+  "description": "Displays an image, with some extra functionality",
+  "version": "19",
+  "sheetSettings": {
+    "defaultCols": 2,
+    "defaultRows": 2,
+    "minCols": 2,
+    "minRows": 2
+  },
+  "cardSettings": {
+    "defaultHeight": 350,
+    "minHeight": 150
+  },
+  "inputs": [
+    {
+      "key": "customPropertySlug",
+      "type": "Text",
+      "label": "Custom Property Slug",
+      "placeholder": "Custom property slug, empty for image url"
+    },
+    {
+      "key": "url",
+      "type": "Text",
+      "label": "Image Url",
+      "placeholder": "Enter image url"
+    },
+    {
+      "key": "objectFit",
+      "type": "Selection",
+      "label": "Object fit",
+      "defaultValue": "contain",
+      "options": [
+        {
+          "value": "contain",
+          "label": "Contain"
+        },
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    }
+  ]
+}

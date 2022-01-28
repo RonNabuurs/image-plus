@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/@ixon-cdk/core/config/schema.json",
+  "prefix": "pct",
+  "components": {
+    "image-plus": {
+      "runner": {
+        "build": {
+          "builder": "@ixon-cdk/vue-builder:browser",
+          "input": "image-plus.vue"
+        }
+      }
+    }
+  }
+}
